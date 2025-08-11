@@ -23,8 +23,6 @@ class DataCleaner:
         Initialize DataCleaner with optional acronyms/contractions dictionaries or URLs.
         Loads NLTK stopwords, tokenizer, and spellchecker.
         """
-        contractions_url = 'https://raw.githubusercontent.com/ShravanTV/Natural_Catastrophe_Events/refs/heads/main/Contractions_lowercase.json'
-        acronyms_url = 'https://raw.githubusercontent.com/ShravanTV/Natural_Catastrophe_Events/refs/heads/main/abbrevations.json'
 
         import logging
         self.logger = logging.getLogger(self.__class__.__name__)
